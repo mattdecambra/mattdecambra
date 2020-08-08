@@ -1,0 +1,9 @@
+---
+title: "About Me"
+---
+  
+<center>
+# Hi, I'm Matt DeCambra
+</center>
+
+I am a graduating senior from the University of California Santa Barbara. I am studying Geography with an emphasis in GIS. When I am not doing school work I enjoy playing music and camping. I am currently keeping a watchful eye for job opportunities in the Bay Area, and hope this website serves as an example of my work.

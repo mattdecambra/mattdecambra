@@ -1,0 +1,12 @@
+---
+title: "Projects"
+---
+
+In my final quarter of senior year I took a GIS class based in R. It helped me build my skills using things other then GIS API. 
+
+
+## [Building a project website]()
+
+- In this assignment we built a static users site with Github Pages 
+- Includes a github repo for access to all the code.
+- Look at how high quality my work is!
