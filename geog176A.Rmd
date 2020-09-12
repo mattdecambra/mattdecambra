@@ -10,3 +10,17 @@ In my final quarter of senior year I took a GIS class based in R. It helped me b
 - In this assignment we built a static users site with Github Pages 
 - Includes a github repo for access to all the code.
 - Look at how high quality my work is!
+
+
+
+## [Lab 2]()
+https://mattdecambra.github.io/176A-labs/lab-02.html
+
+## [Lab 3]()
+https://mattdecambra.github.io/176A-labs/lab-03.html
+
+## [Lab 4]()
+https://mattdecambra.github.io/176A-labs/lab-04-matt.html
+
+## [Lab 5]()
+https://mattdecambra.github.io/176A-labs/lab-05.html
