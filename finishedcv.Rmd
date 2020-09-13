@@ -5,6 +5,6 @@ title: "Matt DeCambra"
 ## [CV]()
 
 <center>
-![](img/matt resume.pdf)
+![](img/matt resume.pdf){width ="150%"}
 <center>
 
