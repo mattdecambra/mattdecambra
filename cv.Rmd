@@ -2,14 +2,6 @@
 title: "Matt DeCambra"
 ---
   
-## [Education]()
-
-- 2018-2020           Bachelor of Arts in Geography with an emphasis in GIS from 
-University of California Santa Barbara
-
-
-
-## [Experience]()
--Busser/Server at The Vine 2015-2016
--Student Aide at Adventure Time Learning 2016-2018
--Lead Instructor at Galileo Summer Camp 2014-2020
+<center>
+![](img/matt resume.pdf)
+<center>
