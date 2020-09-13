@@ -10,8 +10,8 @@ navbar:
       icon: fa-book
       href: geog176A.html
     - text: "CV"
-    -icon: fa-book
-    -href: cv.html
+    - icon: fa-book
+    - href: cv.html
   right:
     - icon: fa-github
       href: https://github.com/mikejohnson51/geog176A
