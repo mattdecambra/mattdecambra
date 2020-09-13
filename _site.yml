@@ -9,13 +9,11 @@ navbar:
     - text: "GIS Work"
       icon: fa-book
       href: geog176A.html
+   
+  right:
     - text: "CV"
     - icon: fa-book
     - href: cv.html
-  right:
-    - icon: fa-github
-      href: https://github.com/mikejohnson51/geog176A
-      
 output:
   html_document:
     theme: cosmo
