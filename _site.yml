@@ -8,15 +8,25 @@ navbar:
       href: index.html
     - text: "GIS Work"
       icon: fa-book
-      href: geog176A.html
+      menu:
+        - text: "Lab 2"
+          href: https://mattdecambra.github.io/176A-labs/lab-02.html
+        - text: "Lab 3"
+          href: https://mattdecambra.github.io/176A-labs/lab-03.html
+        - text: "Lab 4"
+          href: https://mattdecambra.github.io/176A-labs/lab-04-matt.html
+        - text: "Lab 5"
+          href: https://mattdecambra.github.io/176A-labs/lab-05.html
+        - text: "Other GIS Related Work"
+          href: geog176A.html
     - text: "CV"
       icon: fa-home
       href: finishedcv.html
    
   right:
-    - text: "CV"
-    - icon: fa-book
-    - href: cv.html
+    - icon: fa-linkedin fa-lg
+    - href: https://www.linkedin.com/feed/
 output:
   html_document:
     theme: cosmo 
+    highlight: textmate

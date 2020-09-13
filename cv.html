@@ -20,7 +20,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -280,12 +280,31 @@ $(document).ready(function () {
     Home
   </a>
 </li>
-<li>
-  <a href="geog176A.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-book"></span>
      
     GIS Work
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://mattdecambra.github.io/176A-labs/lab-02.html">Lab 2</a>
+    </li>
+    <li>
+      <a href="https://mattdecambra.github.io/176A-labs/lab-03.html">Lab 3</a>
+    </li>
+    <li>
+      <a href="https://mattdecambra.github.io/176A-labs/lab-04-matt.html">Lab 4</a>
+    </li>
+    <li>
+      <a href="https://mattdecambra.github.io/176A-labs/lab-05.html">Lab 5</a>
+    </li>
+    <li>
+      <a href="geog176A.html">Other GIS Related Work</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="finishedcv.html">
@@ -296,15 +315,14 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown-header">CV</li>
-<li>
+        <li>
   <a>
-    <span class="fa fa-book"></span>
+    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="cv.html"></a>
+  <a href="https://www.linkedin.com/feed/"></a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->

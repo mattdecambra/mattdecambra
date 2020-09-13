@@ -1,6 +1,8 @@
 ---
 title: "About Me"
 ---
+![](img/ucsb_geog.jpg)
+
   
 <center>
 # Hi, I'm Matt DeCambra
