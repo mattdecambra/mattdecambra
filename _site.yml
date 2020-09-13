@@ -9,6 +9,9 @@ navbar:
     - text: "GIS Work"
       icon: fa-book
       href: geog176A.html
+    - text: "CV"
+      icon: fa-home
+      href: finishedcv.html
    
   right:
     - text: "CV"
@@ -16,4 +19,4 @@ navbar:
     - href: cv.html
 output:
   html_document:
-    theme: cosmo
+    theme: cosmo 
