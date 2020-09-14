@@ -1,8 +1,23 @@
 ---
 title: "UCSB Research Projects"
 ---
+Here are some examples of my research projects done during my studies at UCSB.
 
+
+
+---
+<br>
+
+
+## Olympic Land Cover Change- **2019**
 
 ![](img/poster_edits.jpg)
+
+<br>
+<br>
+<br> 
+<br>
+
+## London Olympic Transportation Network Analysis- **2020**
 
 ![](img/finals_poster_176-page-001.jpg)
