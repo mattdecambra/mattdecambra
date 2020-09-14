@@ -1,0 +1,109 @@
+```{r}
+library(sf)        # vector manipulation
+library(raster)    # raster manipulation
+library(fasterize) # "faster" raster
+library(whitebox)  # terrain analysis
+
+# Data libraries
+library(osmdata)   # OSM API
+library(elevatr)   # Elevation  Web Tiles
+library(dplyr)
+#Elevation
+basin = read_sf("https://labs.waterdata.usgs.gov/api/nldi/linked-data/nwissite/USGS-11119750/basin")
+
+elev = elevatr::get_elev_raster(basin, z = 13) %>% 
+  crop(basin) %>% 
+  mask(basin)
+
+
+elev_feet = elev *3.281
+writeRaster(elev_feet, "../data/lab-area-elev.tif", overwrite = TRUE)
+
+(bbs  = st_bbox(basin) %>% st_as_sfc() %>% st_transform(4326))
+
+
+Streams = osmdata::opq(basin) %>% 
+  add_osm_feature(key = 'waterway', value = "stream") %>% 
+    osmdata_sf()
+
+
+Building = osmdata::add_osm_feature(opq(basin), "building")%>% 
+    osmdata_sf() 
+
+
+Cent = st_centroid(Building$osm_polygons) %>% 
+  st_intersection(basin)
+
+rails = dplyr::filter(Cent, amenity=="railway")
+
+river = st_intersection(Streams$osm_lines,basin)
+
+
+wbt_hillshade("../data/lab-area-elev.tif", "../data/hillshade.tif")
+basins = raster("../data/hillshade.tif")
+plot(basins, col = gray.colors(256, alpha = .5),
+     legend=FALSE)
+plot(basin$geometry, add = TRUE)
+plot(river$geometry, add = TRUE)
+
+gbuffer
+
+
+
+
+
+#Height Above
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildings = osm2$osm_polygons %>% 
+  dplyr::select(osm_id, geometry) %>% 
+  plot() %>% 
+
+  
+river = osm$osm_lines %>% 
+   dplyr::select(osm_id, name, waterway)
+
+
+#
+
+
+river
+
+
+buildings = osm2$osm_polygons %>% 
+  dplyr::select(osm_id, geometry) %>% 
+  plot() %>% 
+
+buildings = buildings %>% 
+  st_intersection(st_as_sfc(st_bbox(basin))) %>% 
+  mutate(length = st_length(.)) %>% 
+  slice_max(length, n = 1) %>% 
+  plot()
+  
+river = osm$osm_lines %>% 
+   dplyr::select(osm_id, name, waterway)

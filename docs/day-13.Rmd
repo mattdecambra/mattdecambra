@@ -1,0 +1,36 @@
+```{r}
+library(tidyverse)
+library(sf)
+library(units)
+library(leaflet)
+library(spatstat)
+
+library(USAboundaries)
+library(rnaturalearth)
+library(gghighlight)
+
+library(ggrepel)
+library(knitr)
+
+
+
+
+CONUS= USAboundaries::us_counties(resolution = "low") %>%
+  filter(!(state_name %in% c( 'Puerto Rico', 'Alaska', 'Hawaii')))
+conusbound= USAboundaries::us_boundaries(resolution = "low") %>%
+  filter(!(state_name %in% c( 'Puerto Rico', 'Alaska', 'Hawaii')))
+conusbound <- st_transform(conusbound, 5070)
+
+
+
+
+simp_conus = rmapshaper::ms_simplify(conusbound, keep = .05)
+ 
+mapview::npts(conusbound)
+mapview::npts(simp_conus)
+
+plot(simp_conus)
+plot(conusbound)
+
+
+```
