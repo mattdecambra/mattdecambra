@@ -29,6 +29,8 @@ navbar:
       menu:
         - text: LinkedIn
           href: https://linkedin.com/in/matt-decambra-22746719b
+        - text: Github
+          href: https://github.com/mattdecambra
 output:
   html_document:
     theme: cosmo 
