@@ -17,8 +17,11 @@ navbar:
           href: https://mattdecambra.github.io/176A-labs/lab-04-matt.html
         - text: "Lab 5"
           href: https://mattdecambra.github.io/176A-labs/lab-05.html
+        - text: "Lab 6"
+          href: https://mattdecambra.github.io/176A-labs/lab-06-mat.html
         - text: "Other GIS Related Work"
           href: geog176A.html
+      
     - text: "CV"
       icon: fa-home
       href: finishedcv.html
