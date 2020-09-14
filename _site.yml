@@ -10,7 +10,7 @@ navbar:
       icon: fa-book
       menu:
         - text: "Lab 2"
-          href: lab-02.html
+          href: https://mattdecambra.github.io/176A-labs/lab-02.html
         - text: "Lab 3"
           href: https://mattdecambra.github.io/176A-labs/lab-03.html
         - text: "Lab 4"
