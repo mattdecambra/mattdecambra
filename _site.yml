@@ -28,7 +28,7 @@ navbar:
     - icon: fa-users
       menu:
         - text: LinkedIn
-          href: www.linkedin.com/in/matt-decambra-22746719b
+          href: https://linkedin.com/in/matt-decambra-22746719b
 output:
   html_document:
     theme: cosmo 
