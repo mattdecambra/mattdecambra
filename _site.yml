@@ -24,8 +24,11 @@ navbar:
       href: finishedcv.html
    
   right:
-    - icon: fa-linkedin fa-lg
-    - href: https://www.linkedin.com/in/matt-decambra-22746719b/
+    - text: Socials
+    - icon: fa-users
+      menu:
+        - text: LinkedIn
+          href: www.linkedin.com/in/matt-decambra-22746719b
 output:
   html_document:
     theme: cosmo 
