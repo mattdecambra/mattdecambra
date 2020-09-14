@@ -10,7 +10,7 @@ Here are some examples of my research projects done during my studies at UCSB.
 
 ## Example of Flood Map- **2020**
 
-![Gif](img/mission-creek-fim.gif)
+![](img/mission-creek-fim.gif)
 
 
 ## Olympic Land Cover Change- **2019**
