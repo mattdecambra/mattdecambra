@@ -8,6 +8,7 @@ navbar:
       href: index.html
     - text: "GIS Work"
       icon: fa-book
+      href: gisexamples.html
       menu:
         - text: "Lab 2"
           href: https://mattdecambra.github.io/176A-labs/lab-02.html
