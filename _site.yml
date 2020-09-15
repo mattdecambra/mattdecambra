@@ -6,9 +6,8 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "GIS Work"
-      icon: fa-book
-      href: gisexamples.html
+    - text: "GIS Links"
+      icon: fa-box
       menu:
         - text: "Lab 2"
           href: https://mattdecambra.github.io/176A-labs/lab-02.html
@@ -22,7 +21,9 @@ navbar:
           href: https://mattdecambra.github.io/176A-labs/lab-06-mat.html
         - text: "Other GIS Related Work"
           href: geog176A.html
-      
+    - text: "Geog 176 Info "
+      icon: fa-box-open
+      href: gisexamples.html 
     - text: "CV"
       icon: fa-home
       href: finishedcv.html
